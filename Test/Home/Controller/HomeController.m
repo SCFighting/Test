@@ -28,14 +28,12 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.imageOutPut addTarget:self.randerView];
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [super touchesBegan:touches withEvent:event];
-    UIImage *image = [UIImage imageNamed:@"2021_07_06_14_11_IMG_0711.jpg"];
-    self.imageOutPut = [[GPUImagePicture alloc] initWithImage:image];
-    [self.imageOutPut addTarget:self.randerView];
     [self.imageOutPut processImage];
 }
 
@@ -47,6 +45,15 @@
         _randerView = [[GPUImageView alloc] init];
     }
     return _randerView;
+}
+
+-(GPUImagePicture *)imageOutPut
+{
+    if (_imageOutPut == nil) {
+        UIImage *image = [UIImage imageNamed:@"2021_07_06_14_11_IMG_0711.jpg"];
+        _imageOutPut = [[GPUImagePicture alloc] initWithImage:image];
+    }
+    return _imageOutPut;
 }
 
 @end
