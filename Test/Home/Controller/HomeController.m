@@ -33,4 +33,28 @@
 
 #pragma mark -- GPUImageVideoCameraDelegate
 
+-(void)willOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer output:(AVCaptureOutput *)output
+{
+}
+
+#pragma mark -- Getter
+
+-(GPUImageVideoCamera *)videoCamera
+{
+    if (_videoCamera == nil) {
+        _videoCamera = [[GPUImageVideoCamera alloc] initWithSessionPreset:AVCaptureSessionPreset1280x720 cameraPosition:AVCaptureDevicePositionFront];
+        _videoCamera.outputImageOrientation = UIInterfaceOrientationPortrait;
+        _videoCamera.delegate = self;
+    }
+    return _videoCamera;
+}
+
+-(GPUImageView *)randerView
+{
+    if (_randerView == nil) {
+        _randerView = [[GPUImageView alloc] init];
+    }
+    return _randerView;
+}
+
 @end
