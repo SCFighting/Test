@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45588349D41E01693C7C66B5 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F42255FC1024CAC190EC4 /* Pods_Test.framework */; };
+		523E9EE726942AB7007748A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523E9EE626942AB7007748A2 /* LaunchScreen.storyboard */; };
 		528241452541397900375E7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528241382541397800375E7D /* SceneDelegate.m */; };
 		528241462541397900375E7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528241392541397800375E7D /* AppDelegate.m */; };
 		528241472541397900375E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5282413E2541397900375E7D /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		523E9EE626942AB7007748A2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5282410225412F6900375E7D /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528241372541397800375E7D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		528241382541397800375E7D /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				5282413E2541397900375E7D /* Assets.xcassets */,
 				528241432541397900375E7D /* main.m */,
 				528241442541397900375E7D /* Info.plist */,
+				523E9EE626942AB7007748A2 /* LaunchScreen.storyboard */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523E9EE726942AB7007748A2 /* LaunchScreen.storyboard in Resources */,
 				5282414B2541397900375E7D /* Info.plist in Resources */,
 				528241472541397900375E7D /* Assets.xcassets in Resources */,
 			);
@@ -409,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH7TA876TJ;
 				ENABLE_BITCODE = NO;
@@ -434,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH7TA876TJ;
 				ENABLE_BITCODE = NO;

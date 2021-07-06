@@ -23,22 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "50A446D2-0128-4B42-91E8-779BBFFB32AA"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/GPUImage/framework/Source/GPUImageFramebuffer.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
-            landmarkName = "-generateFramebuffer"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "AAE86F22-5910-40D6-B416-C8A669885D4B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -96,7 +80,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "623"
                   endingLineNumber = "623"
-                  offsetFromSymbolStart = "84">
+                  offsetFromSymbolStart = "68">
                </Location>
                <Location
                   uuid = "908F3F1E-C4F8-4D40-A37D-276ABB91301B - 21a78076cc763c96"
@@ -111,7 +95,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "623"
                   endingLineNumber = "623"
-                  offsetFromSymbolStart = "136">
+                  offsetFromSymbolStart = "112">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -129,6 +113,22 @@
             startingLineNumber = "662"
             endingLineNumber = "662"
             landmarkName = "-updateTargetsForVideoCameraUsingCacheTextureAtWidth:height:time:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46AE007F-9BCD-471F-B55D-AA20005D7C47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Test/Home/Controller/HomeController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
