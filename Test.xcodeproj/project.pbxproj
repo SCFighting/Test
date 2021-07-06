@@ -8,23 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		45588349D41E01693C7C66B5 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F42255FC1024CAC190EC4 /* Pods_Test.framework */; };
-		524CCDC02547BA480095EF55 /* NvEffectSdkCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527DEAED2546A21700BB35BA /* NvEffectSdkCore.framework */; };
-		524CCDC12547BA480095EF55 /* NvEffectSdkCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 527DEAED2546A21700BB35BA /* NvEffectSdkCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		524CCE272547CA430095EF55 /* EFEffectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE142547CA430095EF55 /* EFEffectManager.m */; };
-		524CCE282547CA430095EF55 /* EffectRenderCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE162547CA430095EF55 /* EffectRenderCore.m */; };
-		524CCE292547CA430095EF55 /* NvBeautyTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE192547CA430095EF55 /* NvBeautyTypeModel.m */; };
-		524CCE2A2547CA430095EF55 /* NvStickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE1B2547CA430095EF55 /* NvStickerModel.m */; };
-		524CCE2B2547CA430095EF55 /* UIColor+NvColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE1E2547CA430095EF55 /* UIColor+NvColor.m */; };
-		524CCE2C2547CA430095EF55 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE222547CA430095EF55 /* UIImage+Extension.m */; };
-		524CCE2D2547CA430095EF55 /* NvUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE242547CA430095EF55 /* NvUtils.m */; };
-		524CCE2E2547CA430095EF55 /* NvBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE262547CA430095EF55 /* NvBuffer.m */; };
-		524CCE3A2547CA8F0095EF55 /* EFARSceneFaceEffectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE312547CA8F0095EF55 /* EFARSceneFaceEffectModel.m */; };
-		524CCE3B2547CA8F0095EF55 /* preset.mslut in Resources */ = {isa = PBXBuildFile; fileRef = 524CCE342547CA8F0095EF55 /* preset.mslut */; };
-		524CCE3C2547CA8F0095EF55 /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 524CCE352547CA8F0095EF55 /* filter.png */; };
-		524CCE3D2547CA8F0095EF55 /* StickerResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 524CCE362547CA8F0095EF55 /* StickerResource.bundle */; };
-		524CCE3E2547CA8F0095EF55 /* EFARSceneEffectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 524CCE382547CA8F0095EF55 /* EFARSceneEffectModel.m */; };
-		524CCE432547F5D10095EF55 /* D41B1BC6-23AC-4508-9C8A-F6430BB37C3F.videofx in Resources */ = {isa = PBXBuildFile; fileRef = 524CCE422547F5D10095EF55 /* D41B1BC6-23AC-4508-9C8A-F6430BB37C3F.videofx */; };
-		524CCE472548475A0095EF55 /* 8671-306-beb7713c51230829dcb9876c9f009470.lic in Resources */ = {isa = PBXBuildFile; fileRef = 524CCE46254847590095EF55 /* 8671-306-beb7713c51230829dcb9876c9f009470.lic */; };
 		528241452541397900375E7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528241382541397800375E7D /* SceneDelegate.m */; };
 		528241462541397900375E7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528241392541397800375E7D /* AppDelegate.m */; };
 		528241472541397900375E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5282413E2541397900375E7D /* Assets.xcassets */; };
@@ -42,7 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				524CCDC12547BA480095EF55 /* NvEffectSdkCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,34 +32,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		524CCE132547CA430095EF55 /* EffectRenderCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectRenderCore.h; sourceTree = "<group>"; };
-		524CCE142547CA430095EF55 /* EFEffectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFEffectManager.m; sourceTree = "<group>"; };
-		524CCE152547CA430095EF55 /* EFEffectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFEffectManager.h; sourceTree = "<group>"; };
-		524CCE162547CA430095EF55 /* EffectRenderCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectRenderCore.m; sourceTree = "<group>"; };
-		524CCE182547CA430095EF55 /* EFFaceEffectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFFaceEffectModel.h; sourceTree = "<group>"; };
-		524CCE192547CA430095EF55 /* NvBeautyTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NvBeautyTypeModel.m; sourceTree = "<group>"; };
-		524CCE1A2547CA430095EF55 /* NvStickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NvStickerModel.h; sourceTree = "<group>"; };
-		524CCE1B2547CA430095EF55 /* NvStickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NvStickerModel.m; sourceTree = "<group>"; };
-		524CCE1C2547CA430095EF55 /* NvBeautyTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NvBeautyTypeModel.h; sourceTree = "<group>"; };
-		524CCE1E2547CA430095EF55 /* UIColor+NvColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NvColor.m"; sourceTree = "<group>"; };
-		524CCE1F2547CA430095EF55 /* NvUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NvUtils.h; sourceTree = "<group>"; };
-		524CCE202547CA430095EF55 /* NVDefineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVDefineConfig.h; sourceTree = "<group>"; };
-		524CCE212547CA430095EF55 /* NvBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NvBuffer.h; sourceTree = "<group>"; };
-		524CCE222547CA430095EF55 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		524CCE232547CA430095EF55 /* UIColor+NvColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NvColor.h"; sourceTree = "<group>"; };
-		524CCE242547CA430095EF55 /* NvUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NvUtils.m; sourceTree = "<group>"; };
-		524CCE252547CA430095EF55 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		524CCE262547CA430095EF55 /* NvBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NvBuffer.m; sourceTree = "<group>"; };
-		524CCE302547CA8F0095EF55 /* EFARSceneFaceEffectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFARSceneFaceEffectModel.h; sourceTree = "<group>"; };
-		524CCE312547CA8F0095EF55 /* EFARSceneFaceEffectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFARSceneFaceEffectModel.m; sourceTree = "<group>"; };
-		524CCE342547CA8F0095EF55 /* preset.mslut */ = {isa = PBXFileReference; lastKnownFileType = file; path = preset.mslut; sourceTree = "<group>"; };
-		524CCE352547CA8F0095EF55 /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
-		524CCE362547CA8F0095EF55 /* StickerResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StickerResource.bundle; sourceTree = "<group>"; };
-		524CCE382547CA8F0095EF55 /* EFARSceneEffectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFARSceneEffectModel.m; sourceTree = "<group>"; };
-		524CCE392547CA8F0095EF55 /* EFARSceneEffectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFARSceneEffectModel.h; sourceTree = "<group>"; };
-		524CCE422547F5D10095EF55 /* D41B1BC6-23AC-4508-9C8A-F6430BB37C3F.videofx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D41B1BC6-23AC-4508-9C8A-F6430BB37C3F.videofx"; sourceTree = "<group>"; };
-		524CCE46254847590095EF55 /* 8671-306-beb7713c51230829dcb9876c9f009470.lic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8671-306-beb7713c51230829dcb9876c9f009470.lic"; sourceTree = "<group>"; };
-		527DEAED2546A21700BB35BA /* NvEffectSdkCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NvEffectSdkCore.framework; sourceTree = "<group>"; };
 		5282410225412F6900375E7D /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528241372541397800375E7D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		528241382541397800375E7D /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
@@ -103,7 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				45588349D41E01693C7C66B5 /* Pods_Test.framework in Frameworks */,
-				524CCDC02547BA480095EF55 /* NvEffectSdkCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,112 +69,6 @@
 				EE5F42255FC1024CAC190EC4 /* Pods_Test.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		524CCDC32547BCC40095EF55 /* NvEffec */ = {
-			isa = PBXGroup;
-			children = (
-				524CCE3F2547F51D0095EF55 /* License */,
-				524CCE372547CA8F0095EF55 /* ARScene */,
-				524CCE2F2547CA8F0095EF55 /* ARScene_ST */,
-				524CCE122547CA430095EF55 /* Manager */,
-				524CCE172547CA430095EF55 /* Model */,
-				524CCE1D2547CA430095EF55 /* Utils */,
-			);
-			path = NvEffec;
-			sourceTree = "<group>";
-		};
-		524CCE122547CA430095EF55 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				524CCE132547CA430095EF55 /* EffectRenderCore.h */,
-				524CCE142547CA430095EF55 /* EFEffectManager.m */,
-				524CCE152547CA430095EF55 /* EFEffectManager.h */,
-				524CCE162547CA430095EF55 /* EffectRenderCore.m */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		524CCE172547CA430095EF55 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				524CCE182547CA430095EF55 /* EFFaceEffectModel.h */,
-				524CCE192547CA430095EF55 /* NvBeautyTypeModel.m */,
-				524CCE1A2547CA430095EF55 /* NvStickerModel.h */,
-				524CCE1B2547CA430095EF55 /* NvStickerModel.m */,
-				524CCE1C2547CA430095EF55 /* NvBeautyTypeModel.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		524CCE1D2547CA430095EF55 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				524CCE1E2547CA430095EF55 /* UIColor+NvColor.m */,
-				524CCE1F2547CA430095EF55 /* NvUtils.h */,
-				524CCE202547CA430095EF55 /* NVDefineConfig.h */,
-				524CCE212547CA430095EF55 /* NvBuffer.h */,
-				524CCE222547CA430095EF55 /* UIImage+Extension.m */,
-				524CCE232547CA430095EF55 /* UIColor+NvColor.h */,
-				524CCE242547CA430095EF55 /* NvUtils.m */,
-				524CCE252547CA430095EF55 /* UIImage+Extension.h */,
-				524CCE262547CA430095EF55 /* NvBuffer.m */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		524CCE2F2547CA8F0095EF55 /* ARScene_ST */ = {
-			isa = PBXGroup;
-			children = (
-				524CCE302547CA8F0095EF55 /* EFARSceneFaceEffectModel.h */,
-				524CCE312547CA8F0095EF55 /* EFARSceneFaceEffectModel.m */,
-				524CCE322547CA8F0095EF55 /* Resource */,
-			);
-			path = ARScene_ST;
-			sourceTree = "<group>";
-		};
-		524CCE322547CA8F0095EF55 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				524CCE332547CA8F0095EF55 /* whitenLut */,
-				524CCE362547CA8F0095EF55 /* StickerResource.bundle */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		524CCE332547CA8F0095EF55 /* whitenLut */ = {
-			isa = PBXGroup;
-			children = (
-				524CCE342547CA8F0095EF55 /* preset.mslut */,
-				524CCE352547CA8F0095EF55 /* filter.png */,
-			);
-			path = whitenLut;
-			sourceTree = "<group>";
-		};
-		524CCE372547CA8F0095EF55 /* ARScene */ = {
-			isa = PBXGroup;
-			children = (
-				524CCE382547CA8F0095EF55 /* EFARSceneEffectModel.m */,
-				524CCE392547CA8F0095EF55 /* EFARSceneEffectModel.h */,
-			);
-			path = ARScene;
-			sourceTree = "<group>";
-		};
-		524CCE3F2547F51D0095EF55 /* License */ = {
-			isa = PBXGroup;
-			children = (
-				524CCE46254847590095EF55 /* 8671-306-beb7713c51230829dcb9876c9f009470.lic */,
-				524CCE422547F5D10095EF55 /* D41B1BC6-23AC-4508-9C8A-F6430BB37C3F.videofx */,
-			);
-			path = License;
-			sourceTree = "<group>";
-		};
-		527DEAEC2546A1E700BB35BA /* ThirdFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				527DEAED2546A21700BB35BA /* NvEffectSdkCore.framework */,
-			);
-			path = ThirdFrameworks;
 			sourceTree = "<group>";
 		};
 		528240F925412F6900375E7D = {
@@ -245,8 +92,6 @@
 		5282410425412F6900375E7D /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				524CCDC32547BCC40095EF55 /* NvEffec */,
-				527DEAEC2546A1E700BB35BA /* ThirdFrameworks */,
 				5282413C2541397900375E7D /* Home */,
 				5282413B2541397900375E7D /* Mine */,
 				528241362541397800375E7D /* Root */,
@@ -380,13 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524CCE432547F5D10095EF55 /* D41B1BC6-23AC-4508-9C8A-F6430BB37C3F.videofx in Resources */,
-				524CCE3B2547CA8F0095EF55 /* preset.mslut in Resources */,
-				524CCE3D2547CA8F0095EF55 /* StickerResource.bundle in Resources */,
 				5282414B2541397900375E7D /* Info.plist in Resources */,
 				528241472541397900375E7D /* Assets.xcassets in Resources */,
-				524CCE472548475A0095EF55 /* 8671-306-beb7713c51230829dcb9876c9f009470.lic in Resources */,
-				524CCE3C2547CA8F0095EF55 /* filter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,18 +281,8 @@
 			files = (
 				528241462541397900375E7D /* AppDelegate.m in Sources */,
 				5282414A2541397900375E7D /* main.m in Sources */,
-				524CCE2B2547CA430095EF55 /* UIColor+NvColor.m in Sources */,
-				524CCE2C2547CA430095EF55 /* UIImage+Extension.m in Sources */,
 				5282415C2541514000375E7D /* BaseController.m in Sources */,
-				524CCE2A2547CA430095EF55 /* NvStickerModel.m in Sources */,
-				524CCE2D2547CA430095EF55 /* NvUtils.m in Sources */,
-				524CCE282547CA430095EF55 /* EffectRenderCore.m in Sources */,
 				5282415F2541515B00375E7D /* HomeController.m in Sources */,
-				524CCE272547CA430095EF55 /* EFEffectManager.m in Sources */,
-				524CCE292547CA430095EF55 /* NvBeautyTypeModel.m in Sources */,
-				524CCE3E2547CA8F0095EF55 /* EFARSceneEffectModel.m in Sources */,
-				524CCE3A2547CA8F0095EF55 /* EFARSceneFaceEffectModel.m in Sources */,
-				524CCE2E2547CA430095EF55 /* NvBuffer.m in Sources */,
 				528241622541516A00375E7D /* MineController.m in Sources */,
 				528241452541397900375E7D /* SceneDelegate.m in Sources */,
 			);
