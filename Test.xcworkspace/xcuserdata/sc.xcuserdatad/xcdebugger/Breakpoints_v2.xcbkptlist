@@ -48,71 +48,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "876"
             endingLineNumber = "876"
-            landmarkName = "-processVideoSampleBuffer:imageBufferRef:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "908F3F1E-C4F8-4D40-A37D-276ABB91301B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/GPUImage/framework/Source/GPUImageVideoCamera.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "623"
-            endingLineNumber = "623"
-            landmarkName = "-updateTargetsForVideoCameraUsingCacheTextureAtWidth:height:time:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "908F3F1E-C4F8-4D40-A37D-276ABB91301B - 21a78076cc763c96"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[GPUImageVideoCamera updateTargetsForVideoCameraUsingCacheTextureAtWidth:height:time:]"
-                  moduleName = "GPUImage"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sc/Desktop/App/Test/Pods/GPUImage/framework/Source/GPUImageVideoCamera.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "623"
-                  endingLineNumber = "623"
-                  offsetFromSymbolStart = "68">
-               </Location>
-               <Location
-                  uuid = "908F3F1E-C4F8-4D40-A37D-276ABB91301B - 21a78076cc763c96"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[GPUImageVideoCamera updateTargetsForVideoCameraUsingCacheTextureAtWidth:height:time:]"
-                  moduleName = "GPUImage"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sc/Desktop/App/Test/Pods/GPUImage/framework/Source/GPUImageVideoCamera.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "623"
-                  endingLineNumber = "623"
-                  offsetFromSymbolStart = "112">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5A291352-B9CA-4FD3-8E39-FB0F213E8072"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/GPUImage/framework/Source/GPUImageVideoCamera.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "662"
-            endingLineNumber = "662"
-            landmarkName = "-updateTargetsForVideoCameraUsingCacheTextureAtWidth:height:time:"
+            landmarkName = "-processAudioSampleBuffer:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

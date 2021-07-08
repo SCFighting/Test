@@ -17,13 +17,12 @@ extern NSString *const kGPUImageYUVVideoRangeConversionForLAFragmentShaderString
 
 @optional
 - (void)willOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer;
-- (void)willOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer output:(AVCaptureOutput *)output;
 @end
 
 
 /**
  A GPUImageOutput that provides frames from either camera
- */
+*/
 @interface GPUImageVideoCamera : GPUImageOutput <AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate>
 {
     NSUInteger numberOfFramesCaptured;
@@ -124,10 +123,6 @@ extern NSString *const kGPUImageYUVVideoRangeConversionForLAFragmentShaderString
  */
 - (void)processVideoSampleBuffer:(CMSampleBufferRef)sampleBuffer;
 
-///  Process a video sample
-/// @param sampleBuffer sampleBuffer description
-/// @param ImageBufferRef ImageBufferRef description
-- (void)processVideoSampleBuffer:(CMSampleBufferRef)sampleBuffer imageBufferRef:(CVImageBufferRef)imageBufferRef;
 /** Process an audio sample
  @param sampleBuffer Buffer to process
  */
