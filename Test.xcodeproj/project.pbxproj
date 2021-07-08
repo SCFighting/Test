@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45588349D41E01693C7C66B5 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F42255FC1024CAC190EC4 /* Pods_Test.framework */; };
 		523E9EE726942AB7007748A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523E9EE626942AB7007748A2 /* LaunchScreen.storyboard */; };
+		526FDE362696DF3B009AB17E /* GPUImagePPPPTFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 526FDE352696DF3B009AB17E /* GPUImagePPPPTFilter.m */; };
 		528241452541397900375E7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528241382541397800375E7D /* SceneDelegate.m */; };
 		528241462541397900375E7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528241392541397800375E7D /* AppDelegate.m */; };
 		528241472541397900375E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5282413E2541397900375E7D /* Assets.xcassets */; };
@@ -17,6 +17,7 @@
 		5282415C2541514000375E7D /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282415B2541514000375E7D /* BaseController.m */; };
 		5282415F2541515B00375E7D /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282415E2541515B00375E7D /* HomeController.m */; };
 		528241622541516A00375E7D /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528241612541516A00375E7D /* MineController.m */; };
+		88298385A70F02DB0A2BF0BB /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B5E64756F3229726F152B5 /* Pods_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		523E9EE626942AB7007748A2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526FDE342696DF3B009AB17E /* GPUImagePPPPTFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImagePPPPTFilter.h; sourceTree = "<group>"; };
+		526FDE352696DF3B009AB17E /* GPUImagePPPPTFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImagePPPPTFilter.m; sourceTree = "<group>"; };
 		5282410225412F6900375E7D /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528241372541397800375E7D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		528241382541397800375E7D /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
@@ -48,7 +51,7 @@
 		5282415E2541515B00375E7D /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		528241602541516A00375E7D /* MineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
 		528241612541516A00375E7D /* MineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
-		EE5F42255FC1024CAC190EC4 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B5E64756F3229726F152B5 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF42EF4B5B4B0D10C95AE128 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 		F158B092EDCDBF22BC485C7E /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45588349D41E01693C7C66B5 /* Pods_Test.framework in Frameworks */,
+				88298385A70F02DB0A2BF0BB /* Pods_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +71,7 @@
 		2BEDEA910496B21B9F872942 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE5F42255FC1024CAC190EC4 /* Pods_Test.framework */,
+				65B5E64756F3229726F152B5 /* Pods_Test.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,6 +148,8 @@
 		528241582541511500375E7D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				526FDE342696DF3B009AB17E /* GPUImagePPPPTFilter.h */,
+				526FDE352696DF3B009AB17E /* GPUImagePPPPTFilter.m */,
 				5282415D2541515B00375E7D /* HomeController.h */,
 				5282415E2541515B00375E7D /* HomeController.m */,
 			);
@@ -286,6 +291,7 @@
 				528241462541397900375E7D /* AppDelegate.m in Sources */,
 				5282414A2541397900375E7D /* main.m in Sources */,
 				5282415C2541514000375E7D /* BaseController.m in Sources */,
+				526FDE362696DF3B009AB17E /* GPUImagePPPPTFilter.m in Sources */,
 				5282415F2541515B00375E7D /* HomeController.m in Sources */,
 				528241622541516A00375E7D /* MineController.m in Sources */,
 				528241452541397900375E7D /* SceneDelegate.m in Sources */,
