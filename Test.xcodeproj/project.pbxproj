@@ -34,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5235520526A91AA900655332 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		523E9EE626942AB7007748A2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		526FDE342696DF3B009AB17E /* GPUImagePPPPTFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImagePPPPTFilter.h; sourceTree = "<group>"; };
 		526FDE352696DF3B009AB17E /* GPUImagePPPPTFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImagePPPPTFilter.m; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 				528241432541397900375E7D /* main.m */,
 				528241442541397900375E7D /* Info.plist */,
 				523E9EE626942AB7007748A2 /* LaunchScreen.storyboard */,
+				5235520526A91AA900655332 /* PrefixHeader.pch */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -427,6 +429,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Test/ThirdFrameworks",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Test/Source/PrefixHeader.pch";
 				INFOPLIST_FILE = /Users/sc/Desktop/App/Test/Test/Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,6 +456,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Test/ThirdFrameworks",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Test/Source/PrefixHeader.pch";
 				INFOPLIST_FILE = /Users/sc/Desktop/App/Test/Test/Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -14,25 +14,31 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
   - GPUImage (0.1.7)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - CocoaLumberjack
   - GPUImage
   - Masonry
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CocoaLumberjack
     - GPUImage
     - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 1465125ebb47ba4d6e1659013c8089a428af1c66
+PODFILE CHECKSUM: 494f160e8eef50a4d401e8244a70bcaafa0a1a63
 
 COCOAPODS: 1.10.0

@@ -20,8 +20,7 @@
         UIWindowScene *windowScene=(UIWindowScene*)scene;
         self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
         self.window.frame=CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width,  [UIScreen mainScreen].bounds.size.height);
-        HomeController *home=[[HomeController alloc]init];
-        self.window.rootViewController = home;// self.rootViewController;
+        self.window.rootViewController =  self.rootViewController;
         [self.window makeKeyAndVisible];
     }
 }
@@ -73,8 +72,9 @@
         MineController *mine = [[MineController alloc] init];
         mine.tabBarItem.title=@"我的";
         mine.tabBarItem.image=[UIImage imageNamed:@"tab_mine_nor"];
+        UINavigationController *mineNav = [[UINavigationController alloc] initWithRootViewController:mine];
         
-        _rootViewController.viewControllers = @[home,mine];
+        _rootViewController.viewControllers = @[home,mineNav];
 
     }
     return _rootViewController;

@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  Test
+//
+//  Created by 孙超 on 2021/7/22.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <CocoaLumberjack/CocoaLumberjack.h>
+static const DDLogLevel ddLogLevel = DDLogLevelDebug;
+#define LOG_LEVEL_DEF ddLogLevel
+
+#import <Masonry/Masonry.h>
+
+
+#endif /* PrefixHeader_pch */
